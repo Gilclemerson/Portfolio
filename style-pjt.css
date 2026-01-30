@@ -1,0 +1,17 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #89b67e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+  }
