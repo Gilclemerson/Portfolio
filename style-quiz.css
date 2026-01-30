@@ -1,0 +1,50 @@
+body{
+    font-family: Arial,sans-serif;
+    background: #0e0d0d;
+}
+
+/*caixa de perguntas */
+.container{
+    max-width:700px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+}
+
+/*botões com as alternativas */
+button{
+    display:block;
+    width:700px;
+    margin:8px 0;
+    padding:20px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+/*botão de iniciar o quiz */
+#start-btn{
+    width: 100px;
+    padding:10px;
+}
+
+
+/*botão de passar para a proxima pergunta do quiz */
+#next-btn{
+    width: 100px;
+    padding:10px;
+}
+
+
+.correct{
+    background-color:rgb(16, 172, 21);
+    color:white;
+}
+.wrong{
+    background-color:#f01a0b;
+    color:white;
+}
+.hide{
+    display:none;
+}
